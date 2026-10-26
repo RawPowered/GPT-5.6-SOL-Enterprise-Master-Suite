@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/guide-hero.svg" alt="GPT-5.6 Sol enterprise AI workflow guide: scope the work, ground it in evidence, and make the result reviewable" width="100%">
+<img src="assets/guide-hero-banner.png" alt="GPT-5.6 Sol enterprise AI workflow guide: scope the work, ground it in evidence, and make the result reviewable" width="100%">
 
 <p><strong>An independent, practical field guide to enterprise AI workflows.</strong></p>
 
