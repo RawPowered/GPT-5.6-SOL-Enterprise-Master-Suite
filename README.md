@@ -1,39 +1,82 @@
 <div align="center">
 
-# GPT-5.6 Sol Enterprise Master Suite
+<img src="assets/guide-hero.svg" alt="GPT-5.6 Sol enterprise AI workflow guide: scope the work, ground it in evidence, and make the result reviewable" width="100%">
 
-**An independent, practical guide to enterprise AI workflows, reusable prompts, and validation.**
+<p><strong>An independent, practical field guide to enterprise AI workflows.</strong></p>
 
-[Browse the guide](docs/quick-start.md) · [Prompt templates](docs/prompt-templates.md) · [Evaluation playbook](docs/evaluation-playbook.md) · [Official references](docs/official-resources.md)
+<p>
+<a href="docs/quick-start.md">Quick start</a> &nbsp;·&nbsp;
+<a href="docs/prompt-templates.md">Prompt templates</a> &nbsp;·&nbsp;
+<a href="docs/evaluation-playbook.md">Evaluation playbook</a> &nbsp;·&nbsp;
+<a href="docs/official-resources.md">Official references</a>
+</p>
 
-[RawPowered project portfolio](https://github.com/RawPowered)
+<p><a href="https://github.com/RawPowered">RAWPOWERED / PROJECT SHOWCASE</a></p>
 
 </div>
 
 ---
 
-## What this repository contains
+## Start with a route
 
-This repository turns the larger GPT-5.6 Sol guide project into a navigable set of working resources:
+| **I need to…** | **Start here** | **You’ll get** |
+|---|---|---|
+| Frame a one-off task | [Quick start](docs/quick-start.md) | A concise brief for the outcome, evidence, constraints, and checks |
+| Build a reusable prompt | [Prompt templates](docs/prompt-templates.md) | Compact and higher-assurance templates with clear approval boundaries |
+| Decide whether a workflow is ready | [Evaluation playbook](docs/evaluation-playbook.md) | A repeatable test and release record |
+| Verify a product-specific detail | [Official references](docs/official-resources.md) | Primary sources for current model, prompting, evaluation, and privacy information |
 
-- A quick-start workflow for scoping AI-assisted work
-- Copy-ready prompt templates for everyday and higher-assurance tasks
-- A repeatable evaluation and release checklist
-- Links to current primary documentation for model, prompting, evaluation, and data-control details
+## The working path
 
-The name “GPT-5.6 Sol” identifies this independent project and its source materials. It does not claim that the project is an official OpenAI guide or that every named model, setting, or capability is currently available. Check live product documentation before relying on product-specific details.
+<img src="assets/workflow-map.svg" alt="Four-step workflow: scope the task, ground it in evidence, set authority and boundaries, and verify the work" width="100%">
 
-## Start here
+The guide treats quality as a workflow: define success first, make the permitted evidence clear, set decision and action boundaries, then check the actual result.
 
-1. Read the [quick start](docs/quick-start.md) to scope a task and define a useful result.
-2. Adapt a [prompt template](docs/prompt-templates.md) to your audience, evidence, constraints, and approval needs.
-3. Use the [evaluation playbook](docs/evaluation-playbook.md) before relying on a workflow repeatedly or in production.
-4. Verify changing product details against the [official references](docs/official-resources.md).
+## A prompt example
 
-## Use and review
+**Vague request**
 
-Treat these materials as starting points. Validate outputs against authoritative evidence, protect sensitive information under your organization’s policies, and require an accountable person to approve consequential decisions and external actions. The examples do not replace legal, security, compliance, or operational review.
+> Review this vendor.
 
-## Independent publication
+**A reviewable brief**
 
-This is an independent project. It is not published, certified, supported, or endorsed by OpenAI. Product and model names are used for identification only.
+```text
+Goal: Recommend whether we should run a limited pilot of Vendor A for support-ticket
+summarization. Audience: the operations and security leads.
+
+Evidence: Use the vendor security packet, our data-classification policy, and the
+pilot requirements below. Separate vendor claims from verified evidence. List gaps.
+
+Boundaries: Do not send data to the vendor or change any system. Flag any action
+that would require approval.
+
+Acceptance: Compare data handling, access controls, retention, integration effort,
+and exit options. Identify any unmet pilot requirement.
+
+Return: One-page recommendation, evidence table, open questions, and a go/no-go
+checklist. State what was not verified.
+```
+
+This gives the reviewer a defined decision, evidence trail, action boundary, and usable output. It does not turn model output into vendor assurance; a responsible person still reviews the underlying evidence.
+
+## Resource library
+
+### Frame the work
+
+- [Quick start](docs/quick-start.md) — a short path from request to verifiable result.
+- [Prompt templates](docs/prompt-templates.md) — copy-ready compact and higher-assurance formats.
+
+### Check the work
+
+- [Evaluation playbook](docs/evaluation-playbook.md) — representative cases, criteria, repeated trials, failure review, and release decisions.
+- [Official references](docs/official-resources.md) — primary links for changing product details and current evaluation guidance.
+
+## What this is—and what it isn’t
+
+This repository publishes independent workflow guidance and examples. It is not an OpenAI publication, certification, warranty, or endorsement. “GPT-5.6 Sol” is the name of this project and its source materials; it does not assert that every named model, setting, or capability is an official or currently available product. Verify live details on the relevant official product page.
+
+Use the templates as starting points. Follow your organization’s rules for data handling, access, security, and approval. Review consequential decisions and external actions with an accountable person. The evaluation checklist does not certify a workflow for production.
+
+## About this project
+
+A curated guide from [RawPowered](https://github.com/RawPowered), bringing together prompt design, workflow controls, and practical evaluation for enterprise AI work.
