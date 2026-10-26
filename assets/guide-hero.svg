@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="360" viewBox="0 0 1400 360" role="img" aria-labelledby="title desc">
+<title id="title">GPT-5.6 Sol enterprise AI workflow guide</title>
+<desc id="desc">Independent practical guide for scoping AI work, shaping prompts, and evaluating results, styled in RawPowered charcoal and neon lime.</desc>
+<defs>
+  <linearGradient id="beam" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#D5FF3F" stop-opacity=".24"/>
+    <stop offset="1" stop-color="#D5FF3F" stop-opacity="0"/>
+  </linearGradient>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" fill="none" stroke="#202326" stroke-width="1"/>
+  </pattern>
+</defs>
+<rect width="1400" height="360" fill="#08090A"/>
+<rect width="1400" height="360" fill="url(#grid)" opacity=".68"/>
+<path d="M0 0h480l-8 7H0z" fill="#D5FF3F"/>
+<path d="M0 327h1400v33H0z" fill="#101214"/>
+<rect x="1" y="1" width="1398" height="358" fill="none" stroke="#373A3D" stroke-width="2"/>
+<path d="M885 0h112L883 327H771zM1064 0h102L962 327H860zM1233 0h104L1130 327h-104z" fill="#0E1012"/>
+<path d="M48 50h15l-9 18H39z" fill="#D5FF3F"/>
+<text x="77" y="65" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="3" fill="#BFC3C8">RAWPOWERED  /  INDEPENDENT FIELD GUIDE</text>
+<text x="46" y="145" font-family="Arial,sans-serif" font-size="56" font-weight="700" letter-spacing="-1.4" fill="#F6F7F8">GPT-5.6 Sol</text>
+<text x="49" y="190" font-family="Arial,sans-serif" font-size="25" font-weight="700" letter-spacing=".7" fill="#D5FF3F">ENTERPRISE AI WORKFLOW GUIDE</text>
+<text x="49" y="236" font-family="Arial,sans-serif" font-size="18" fill="#CFD2D5">Scope the work. Ground it in evidence. Make the result reviewable.</text>
+<path d="M49 270h340" stroke="#D5FF3F" stroke-width="2"/>
+<path d="M389 270l-8-6m8 6-8 6" fill="none" stroke="#D5FF3F" stroke-width="2"/>
+<text x="49" y="307" font-family="Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2" fill="#8F969B">PROMPTS  /  WORKFLOWS  /  EVALUATION</text>
+<path d="M712 32v292" stroke="#383B3E" stroke-width="1.5"/>
+<path d="M744 48 850 32 969 48" fill="none" stroke="url(#beam)" stroke-width="2"/>
+<text x="756" y="62" font-family="Arial,sans-serif" font-size="12" font-weight="700" letter-spacing="2.5" fill="#D5FF3F">THE WORK PATH</text>
+<!-- three angular route cards -->
+<path d="M756 88h520l14 14v57H770l-14-14z" fill="#0A0B0C" stroke="#3A3D40" stroke-width="1.5"/>
+<path d="M756 88h108l-5 5H756z" fill="#D5FF3F"/>
+<text x="782" y="119" font-family="Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="1.6" fill="#9AA1A6">01  /  FRAME</text>
+<text x="782" y="143" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#F6F7F8">Define the outcome and evidence</text>
+<circle cx="1247" cy="126" r="21" fill="#15181A" stroke="#D5FF3F" stroke-width="1.5"/>
+<path d="M1238 126h18m-6-6 6 6-6 6" fill="none" stroke="#D5FF3F" stroke-width="2"/>
+<path d="M756 170h520l14 14v57H770l-14-14z" fill="#0A0B0C" stroke="#3A3D40" stroke-width="1.5"/>
+<path d="M756 170h108l-5 5H756z" fill="#D5FF3F"/>
+<text x="782" y="201" font-family="Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="1.6" fill="#9AA1A6">02  /  DIRECT</text>
+<text x="782" y="225" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#F6F7F8">Set constraints, approvals, and format</text>
+<circle cx="1247" cy="208" r="21" fill="#15181A" stroke="#D5FF3F" stroke-width="1.5"/>
+<path d="M1238 208h18m-6-6 6 6-6 6" fill="none" stroke="#D5FF3F" stroke-width="2"/>
+<path d="M756 252h520l14 14v47H770l-14-14z" fill="#0A0B0C" stroke="#3A3D40" stroke-width="1.5"/>
+<path d="M756 252h108l-5 5H756z" fill="#D5FF3F"/>
+<text x="782" y="283" font-family="Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="1.6" fill="#9AA1A6">03  /  VERIFY</text>
+<text x="782" y="307" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#F6F7F8">Check the result before relying on it</text>
+<circle cx="1247" cy="286" r="21" fill="#15181A" stroke="#D5FF3F" stroke-width="1.5"/>
+<path d="M1238 286h18m-6-6 6 6-6 6" fill="none" stroke="#D5FF3F" stroke-width="2"/>
+</svg>
