@@ -8,7 +8,8 @@
 <a href="docs/quick-start.md">Quick start</a> &nbsp;·&nbsp;
 <a href="docs/prompt-templates.md">Prompt templates</a> &nbsp;·&nbsp;
 <a href="docs/evaluation-playbook.md">Evaluation playbook</a> &nbsp;·&nbsp;
-<a href="docs/official-resources.md">Official references</a>
+<a href="docs/official-resources.md">Official references</a> &nbsp;·&nbsp;
+<a href="resources/README.md">Full guide + prompt library</a>
 </p>
 
 <p><a href="https://github.com/RawPowered">RAWPOWERED / PROJECT SHOWCASE</a></p>
@@ -70,6 +71,15 @@ This gives the reviewer a defined decision, evidence trail, action boundary, and
 
 - [Evaluation playbook](docs/evaluation-playbook.md) — representative cases, criteria, repeated trials, failure review, and release decisions.
 - [Official references](docs/official-resources.md) — primary links for changing product details and current evaluation guidance.
+
+### Download the complete publication
+
+The latest Cybersecurity Revision 2 source package is available as a [complete ZIP download](resources/GPT-5.6_Sol_High_Cybersecurity_Revision_2.zip) and as individual files in [`resources/gpt-5.6-sol-cybersecurity-revision-2/`](resources/gpt-5.6-sol-cybersecurity-revision-2/). It includes the 209-page master guide, the full 80-prompt leadership library, the 24-prompt purple-team pack, operational templates, the supplemental architecture module, evaluation materials, and SHA-256 checksums.
+
+- [209-page Master Guide PDF](resources/gpt-5.6-sol-cybersecurity-revision-2/GPT-5.6_Sol_High_Final_Master_Guide.pdf)
+- [Leadership prompt library PDF](resources/gpt-5.6-sol-cybersecurity-revision-2/GPT-5.6_Sol_High_Phase_3_Leadership_Prompt_Library.pdf) · [copy-ready prompt library](resources/gpt-5.6-sol-cybersecurity-revision-2/GPT-5.6_Sol_High_Phase_3_Copy_Ready_Prompt_Library.md)
+- [Purple-team prompt pack](resources/gpt-5.6-sol-cybersecurity-revision-2/GPT-5.6_Sol_High_Purple_Team_Copy_Ready_Prompt_Pack.md) · [operational templates](resources/gpt-5.6-sol-cybersecurity-revision-2/GPT-5.6_Sol_High_Purple_Team_Operational_Templates.md)
+- [Package index and revision notes](resources/README.md)
 
 ## What this is—and what it isn’t
 

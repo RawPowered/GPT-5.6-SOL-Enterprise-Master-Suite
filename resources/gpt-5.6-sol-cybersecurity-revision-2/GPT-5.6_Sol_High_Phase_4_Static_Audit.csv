@@ -1,0 +1,105 @@
+id,title,section_code,section_name,mode,role,word_count,estimated_tokens,line_count,numbered_items,cyber,auth_header,no_invention,fact_types,approval_boundary,material_question,completion
+1,Architecture Discovery Brief,A,Solution Architecture,High,Director of Solution Architecture,234,311,36,14,False,False,True,True,True,True,True
+2,Current-State Architecture Assessment,A,Solution Architecture,High,Enterprise Architect,209,278,36,14,False,False,True,True,True,True,True
+3,Target-State Architecture Design,A,Solution Architecture,Extra High,Chief Solution Architect,227,302,37,15,False,False,True,True,True,True,True
+4,Integration and API Boundary Design,A,Solution Architecture,High,Integration Architect,212,282,35,13,False,False,True,True,True,True,True
+5,Event-Driven Architecture Design,A,Solution Architecture,High,Event Architecture Lead,211,281,35,13,False,False,True,True,True,True,True
+6,Multi-Tenant SaaS Architecture,A,Solution Architecture,Extra High,SaaS Platform Architect,213,283,35,13,False,False,True,True,True,True,True
+7,Resilience and Failure-Domain Review,A,Solution Architecture,High,Reliability Architect,208,277,35,13,False,False,True,True,True,True,True
+8,Cloud Migration Architecture,A,Solution Architecture,Extra High,Cloud Transformation Architect,206,274,36,14,False,False,True,True,True,True,True
+9,Architecture Decision Record Director,A,Solution Architecture,High,Architecture Governance Lead,212,282,37,15,False,False,True,True,True,True,True
+10,"Build, Buy, or Partner Decision",A,Solution Architecture,Extra High,Technology Strategy Director,211,281,35,13,False,False,True,True,True,True,True
+11,Repository Orientation and Change Map,B,Engineering & Code Leadership,High,Principal Software Engineer,217,289,35,13,False,False,True,True,True,True,True
+12,Implementation Plan Director,B,Engineering & Code Leadership,High,Staff Engineering Lead,208,277,35,13,False,False,True,True,True,True,True
+13,Risk-First Code Review,B,Engineering & Code Leadership,High,Senior Code Review Director,212,282,35,13,False,False,True,True,True,True,True
+14,Root-Cause Analysis for Software Failures,B,Engineering & Code Leadership,Extra High,Incident Engineering Lead,213,283,36,14,False,False,True,True,True,True,True
+15,Refactoring Strategy,B,Engineering & Code Leadership,High,Software Modernization Architect,204,271,35,13,False,False,True,True,True,True,True
+16,Test Architecture and Coverage Plan,B,Engineering & Code Leadership,High,Quality Engineering Director,212,282,35,13,False,False,True,True,True,True,True
+17,Performance Diagnosis,B,Engineering & Code Leadership,Extra High,Performance Engineering Lead,206,274,36,14,False,False,True,True,True,True,True
+18,Dependency Upgrade and Compatibility Plan,B,Engineering & Code Leadership,High,Dependency Governance Lead,207,275,36,14,False,False,True,True,True,True,True
+19,Release Readiness Review,B,Engineering & Code Leadership,High,Release Engineering Director,212,282,35,13,False,False,True,True,True,True,True
+20,Observability Architecture,B,Engineering & Code Leadership,High,Observability Engineering Lead,211,281,35,13,False,False,True,True,True,True,True
+21,API Implementation Contract,B,Engineering & Code Leadership,High,API Engineering Director,210,279,35,13,False,False,True,True,True,True,True
+22,Patch Verification and Regression Gate,B,Engineering & Code Leadership,High,Senior Remediation Engineer,220,293,36,14,False,False,True,True,True,True,True
+23,Product Requirements Director,C,"Product, UX & Design Leadership",High,Director of Product Management,221,294,38,16,False,False,True,True,True,True,True
+24,Customer Journey and UX Audit,C,"Product, UX & Design Leadership",High,UX Strategy Director,212,282,35,13,False,False,True,True,True,True,True
+25,Information Architecture Design,C,"Product, UX & Design Leadership",High,Information Architecture Lead,214,285,35,13,False,False,True,True,True,True,True
+26,Design System Foundation,C,"Product, UX & Design Leadership",High,Design Systems Director,209,278,35,13,False,False,True,True,True,True,True
+27,Frontend Visual Direction and Build Brief,C,"Product, UX & Design Leadership",High,Creative Technology Director,214,285,35,13,False,False,True,True,True,True,True
+28,Accessibility Review Director,C,"Product, UX & Design Leadership",High,Accessibility Program Lead,202,269,34,12,False,False,True,True,True,True,True
+29,Conversion Experience Review,C,"Product, UX & Design Leadership",High,Conversion Design Director,201,267,34,12,False,False,True,True,True,True,True
+30,Design QA and Visual Acceptance Gate,C,"Product, UX & Design Leadership",High,Design Quality Director,200,266,34,12,False,False,True,True,True,True,True
+31,Data Pipeline Architecture,D,"Data, Automation & Integration",High,Data Platform Architect,205,273,34,12,False,False,True,True,True,True,True
+32,Schema and Data Contract Design,D,"Data, Automation & Integration",High,Principal Data Architect,196,261,34,12,False,False,True,True,True,True,True
+33,Data Quality Control Plan,D,"Data, Automation & Integration",High,Data Quality Director,203,270,34,12,False,False,True,True,True,True,True
+34,Workflow Automation Architecture,D,"Data, Automation & Integration",High,Automation Solutions Director,207,275,35,13,False,False,True,True,True,True,True
+35,Tool and Agent Routing Design,D,"Data, Automation & Integration",Extra High,AI Workflow Architect,211,281,35,13,False,False,True,True,True,True,True
+36,"Idempotency, Retry, and Dead-Letter Design",D,"Data, Automation & Integration",High,Distributed Systems Engineer,200,266,36,14,False,False,True,True,True,True,True
+37,Cross-System Reconciliation Design,D,"Data, Automation & Integration",High,Data Operations Architect,199,265,35,13,False,False,True,True,True,True,True
+38,Automation Cost and Ownership Review,D,"Data, Automation & Integration",High,Automation Economics Director,206,274,35,13,False,False,True,True,True,True,True
+39,CTO Decision Memorandum,E,Executive Technology Leadership,Extra High,Chief Technology Officer,206,274,36,14,False,False,True,True,True,True,True
+40,CISO Risk Memorandum,E,Executive Technology Leadership,Extra High,Chief Information Security Officer,209,278,36,14,False,False,True,True,True,True,True
+41,Architecture Review Board Package,E,Executive Technology Leadership,Extra High,Architecture Governance Chair,210,279,36,14,False,False,True,True,True,True,True
+42,Technical Vendor Due Diligence,E,Executive Technology Leadership,Extra High,Technology Due Diligence Director,201,267,34,12,False,False,True,True,True,True,True
+43,Technical Roadmap and Investment Prioritization,E,Executive Technology Leadership,Extra High,Technology Portfolio Director,206,274,36,14,False,False,True,True,True,True,True
+44,Program Recovery Plan,E,Executive Technology Leadership,Extra High,Technology Program Recovery Director,210,279,35,13,False,False,True,True,True,True,True
+45,Executive Incident Briefing,E,Executive Technology Leadership,High,Executive Incident Commander,206,274,36,14,False,False,True,True,True,True,True
+46,Technology Operating Review,E,Executive Technology Leadership,High,Technology Operations Director,211,281,35,13,False,False,True,True,True,True,True
+47,Defensive Authorization and Scope Charter,F,Defensive Cybersecurity,High,Security Engagement Director,275,366,43,15,True,True,True,True,True,True,True
+48,Enterprise Threat Model,F,Defensive Cybersecurity,Extra High,Enterprise Security Architect,275,366,42,14,True,True,True,True,True,True,True
+49,Application Threat Model,F,Defensive Cybersecurity,Extra High,Application Security Architect,279,371,43,15,True,True,True,True,True,True,True
+50,Security Architecture Review,F,Defensive Cybersecurity,Extra High,Principal Security Architect,266,354,41,13,True,True,True,True,True,True,True
+51,Secure Code Review,F,Defensive Cybersecurity,Extra High,Application Security Review Lead,278,370,42,14,True,True,True,True,True,True,True
+52,Authorization and Access-Control Review,F,Defensive Cybersecurity,Extra High,Identity Security Architect,266,354,42,14,True,True,True,True,True,True,True
+53,Authentication and Session Security Review,F,Defensive Cybersecurity,Extra High,Authentication Security Lead,266,354,41,13,True,True,True,True,True,True,True
+54,Input Validation and Injection Review,F,Defensive Cybersecurity,High,Secure Coding Specialist,263,350,42,14,True,True,True,True,True,True,True
+55,File Upload and Storage Security Review,F,Defensive Cybersecurity,High,Application Security Engineer,269,358,41,13,True,True,True,True,True,True,True
+56,API Security Assessment,F,Defensive Cybersecurity,Extra High,API Security Architect,275,366,42,14,True,True,True,True,True,True,True
+57,Webhook Security Review,F,Defensive Cybersecurity,High,Integration Security Architect,263,350,42,14,True,True,True,True,True,True,True
+58,Cloud IAM and Privilege Review,F,Defensive Cybersecurity,Extra High,Cloud Identity Security Architect,264,351,41,13,True,True,True,True,True,True,True
+59,Secrets Management Review,F,Defensive Cybersecurity,High,Secrets Security Lead,272,362,42,14,True,True,True,True,True,True,True
+60,Tenant Isolation Security Review,F,Defensive Cybersecurity,Extra High,Multi-Tenant Security Architect,268,356,41,13,True,True,True,True,True,True,True
+61,Software Supply-Chain Review,F,Defensive Cybersecurity,Extra High,Software Supply-Chain Security Lead,268,356,40,12,True,True,True,True,True,True,True
+62,CI/CD Pipeline Security Review,F,Defensive Cybersecurity,Extra High,DevSecOps Security Architect,269,358,41,13,True,True,True,True,True,True,True
+63,Container and Orchestration Security Review,F,Defensive Cybersecurity,Extra High,Cloud-Native Security Architect,266,354,40,12,True,True,True,True,True,True,True
+64,Security Logging and Detection Coverage Review,F,Defensive Cybersecurity,High,Detection Architecture Lead,267,355,42,14,True,True,True,True,True,True,True
+65,Vulnerability Triage and Prioritization,F,Defensive Cybersecurity,High,Vulnerability Management Director,267,355,42,14,True,True,True,True,True,True,True
+66,Security Patch Design,F,Defensive Cybersecurity,Extra High,Security Remediation Engineer,267,355,43,15,True,True,True,True,True,True,True
+67,Security Patch Validation,F,Defensive Cybersecurity,Extra High,Security Verification Lead,268,356,43,15,True,True,True,True,True,True,True
+68,Incident Triage and Containment Plan,F,Defensive Cybersecurity,Extra High,Security Incident Commander,260,346,42,14,True,True,True,True,True,True,True
+69,Incident Timeline and Scope Reconstruction,F,Defensive Cybersecurity,Extra High,Digital Forensics Analysis Lead,264,351,42,14,True,True,True,True,True,True,True
+70,Detection Engineering Rule Design,F,Defensive Cybersecurity,High,Detection Engineering Lead,273,363,43,15,True,True,True,True,True,True,True
+71,Authorized Purple-Team Exercise Plan,F,Defensive Cybersecurity,Extra High,Purple Team Director,265,352,41,13,True,True,True,True,True,True,True
+72,Cybersecurity Tabletop Exercise,F,Defensive Cybersecurity,High,Incident Preparedness Director,261,347,42,14,True,True,True,True,True,True,True
+73,Security Control Mapping and Evidence Plan,F,Defensive Cybersecurity,High,Security Compliance Architect,265,352,42,14,True,True,True,True,True,True,True
+74,Privacy and Data Security Review,F,Defensive Cybersecurity,Extra High,Data Protection Security Architect,269,358,42,14,True,True,True,True,True,True,True
+75,AI and LLM Application Security Review,F,Defensive Cybersecurity,Extra High,AI Security Architect,284,378,41,13,True,True,True,True,True,True,True
+76,Security Release Gate,F,Defensive Cybersecurity,Extra High,Security Assurance Director,267,355,41,13,True,True,True,True,True,True,True
+77,Evidence-Based Research Synthesis,G,Research & Artifact Production,High,Research Director,196,261,37,15,False,False,True,True,True,True,True
+78,Professional Document Production Director,G,Research & Artifact Production,High,Director of Document Architecture,218,290,35,13,False,False,True,True,True,True,True
+79,Executive Presentation Production Director,G,Research & Artifact Production,High,Director of Presentation Strategy,211,281,36,14,False,False,True,True,True,True,True
+80,Spreadsheet Model and Analysis Director,G,Research & Artifact Production,High,Director of Analytical Modeling,214,285,38,16,False,False,True,True,True,True,True
+PT-01,Purple Team Program Charter,PT,Purple Team Architecture,Extra High,Purple Team Executive Sponsor,379,505,52,11,True,True,True,True,True,True,True
+PT-02,Authorization and Rules of Engagement,PT,Purple Team Architecture,Extra High,Security Engagement Director,377,503,53,11,True,True,True,True,True,True,True
+PT-03,Target Manifest and Data Handling Plan,PT,Purple Team Architecture,High,Purple Team Operations Lead,370,493,52,11,True,True,True,True,True,True,True
+PT-04,Safety Risk and Deconfliction Plan,PT,Purple Team Architecture,Extra High,Exercise Safety Officer,371,495,52,11,True,True,True,True,True,True,True
+PT-05,Threat-Informed Objective Selection,PT,Purple Team Architecture,High,Threat-Informed Defense Lead,366,488,52,11,True,True,True,True,True,True,True
+PT-06,ATT&CK Coverage Hypothesis,PT,Purple Team Architecture,High,Threat Detection Architect,372,496,52,11,True,True,True,True,True,True,True
+PT-07,Scenario and Control Objective Design,PT,Purple Team Architecture,Extra High,Purple Team Scenario Architect,376,501,52,11,True,True,True,True,True,True,True
+PT-08,Technique-to-Telemetry Mapping,PT,Purple Team Architecture,High,Detection Architecture Lead,364,485,52,11,True,True,True,True,True,True,True
+PT-09,Lab and Range Readiness,PT,Purple Team Architecture,High,Cyber Range Director,368,491,52,11,True,True,True,True,True,True,True
+PT-10,Atomic Test Run Card,PT,Purple Team Architecture,Extra High,Red Team Test Lead,375,500,52,11,True,True,True,True,True,True,True
+PT-11,Tooling and Operator Approval Gate,PT,Purple Team Architecture,Extra High,Security Tool Governance Lead,370,493,52,11,True,True,True,True,True,True,True
+PT-12,"Stop, Abort, and Rollback Control",PT,Purple Team Architecture,Extra High,Exercise Safety Officer,366,488,52,11,True,True,True,True,True,True,True
+PT-13,Telemetry Readiness Review,PT,Purple Team Architecture,High,Blue Team Telemetry Lead,366,488,52,11,True,True,True,True,True,True,True
+PT-14,Detection Engineering Validation,PT,Purple Team Architecture,Extra High,Detection Engineering Lead,365,487,52,11,True,True,True,True,True,True,True
+PT-15,Alert Triage and Response Observation,PT,Purple Team Architecture,High,SOC Validation Lead,370,493,52,11,True,True,True,True,True,True,True
+PT-16,Prevention and Resilience Validation,PT,Purple Team Architecture,Extra High,Security Control Validation Lead,370,493,52,11,True,True,True,True,True,True,True
+PT-17,Purple Test Orchestration Plan,PT,Purple Team Architecture,Extra High,Purple Team Director,367,489,53,11,True,True,True,True,True,True,True
+PT-18,Evidence Ledger and Finding Normalization,PT,Purple Team Architecture,High,Security Assurance Lead,360,480,52,11,True,True,True,True,True,True,True
+PT-19,Remediation and Retest Plan,PT,Purple Team Architecture,Extra High,Security Remediation Director,368,491,52,11,True,True,True,True,True,True,True
+PT-20,After-Action Review and CAPA,PT,Purple Team Architecture,High,Purple Team Improvement Lead,354,472,51,11,True,True,True,True,True,True,True
+PT-21,Coverage and Confidence Scorecard,PT,Purple Team Architecture,Extra High,Threat-Informed Defense Architect,362,483,52,11,True,True,True,True,True,True,True
+PT-22,Program Metrics and Executive Brief,PT,Purple Team Architecture,High,Purple Team Program Director,376,501,52,11,True,True,True,True,True,True,True
+PT-23,Independent Assurance and Release Gate,PT,Purple Team Architecture,Extra High,Security Assurance Director,374,499,51,11,True,True,True,True,True,True,True
+PT-24,Curriculum and Competency Assessment,PT,Purple Team Architecture,High,Cybersecurity Education Director,366,488,52,11,True,True,True,True,True,True,True

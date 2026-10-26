@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "pdf_pages": {
+    "purple": 31,
+    "phase4": 16,
+    "master": 209
+  },
+  "prompt_index_rows": 104,
+  "eval_cases": 44,
+  "purple_prompts": 24,
+  "templates": 12,
+  "render_health": {
+    "purple_mean_range": [
+      243.15,
+      253.14
+    ],
+    "phase4_mean_range": [
+      248.96,
+      252.55
+    ]
+  },
+  "docx_render_gate": "STRUCTURAL PASS; visual DOCX render unavailable because LibreOffice/Word conversion is unavailable in this session",
+  "manual_page_by_page_visual_qa": "DEFERRED BY USER",
+  "phase3_4_integration_record": "STRUCTURAL CROSSWALK ADDED; no page artifacts regenerated"
+}
