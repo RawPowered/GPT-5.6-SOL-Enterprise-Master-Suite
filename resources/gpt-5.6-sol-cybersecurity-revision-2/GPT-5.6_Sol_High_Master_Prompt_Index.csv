@@ -1,0 +1,105 @@
+id,section_code,section_name,title,recommended_selection,accountable_role,use_when,cyber,word_count,estimated_tokens
+01,A,Solution Architecture,Architecture Discovery Brief,High,Director of Solution Architecture,Use before designing or changing a system when the actual operating environment is not yet understood.,No,234,311
+02,A,Solution Architecture,Current-State Architecture Assessment,High,Enterprise Architect,Use to determine whether an existing platform is fit for its present and expected workload.,No,209,278
+03,A,Solution Architecture,Target-State Architecture Design,Extra High,Chief Solution Architect,Use when a future-state platform must be designed from business outcomes and verified constraints.,No,227,302
+04,A,Solution Architecture,Integration and API Boundary Design,High,Integration Architect,"Use to design reliable interfaces between internal systems, vendors, banks, CRMs, proposal tools, or custom services.",No,212,282
+05,A,Solution Architecture,Event-Driven Architecture Design,High,Event Architecture Lead,"Use when workflows need asynchronous processing, decoupling, auditability, or high-volume coordination.",No,211,281
+06,A,Solution Architecture,Multi-Tenant SaaS Architecture,Extra High,SaaS Platform Architect,"Use to design or audit tenant isolation, scale, customization, and operations for a shared platform.",No,213,283
+07,A,Solution Architecture,Resilience and Failure-Domain Review,High,Reliability Architect,Use to find hidden single points of failure and verify recovery behavior.,No,208,277
+08,A,Solution Architecture,Cloud Migration Architecture,Extra High,Cloud Transformation Architect,Use to move applications or data with controlled risk and measurable cutover criteria.,No,206,274
+09,A,Solution Architecture,Architecture Decision Record Director,High,Architecture Governance Lead,"Use to convert an architecture debate into a durable, auditable decision record.",No,212,282
+10,A,Solution Architecture,"Build, Buy, or Partner Decision",Extra High,Technology Strategy Director,"Use for high-value platform, vendor, or capability sourcing decisions.",No,211,281
+11,B,Engineering & Code Leadership,Repository Orientation and Change Map,High,Principal Software Engineer,Use before modifying an unfamiliar or complex codebase.,No,217,289
+12,B,Engineering & Code Leadership,Implementation Plan Director,High,Staff Engineering Lead,Use to turn a product or technical requirement into an executable engineering plan.,No,208,277
+13,B,Engineering & Code Leadership,Risk-First Code Review,High,Senior Code Review Director,"Use to review a change for correctness, security, maintainability, and operational impact.",No,212,282
+14,B,Engineering & Code Leadership,Root-Cause Analysis for Software Failures,Extra High,Incident Engineering Lead,"Use when symptoms, logs, and recent changes must be converted into a defensible cause analysis.",No,213,283
+15,B,Engineering & Code Leadership,Refactoring Strategy,High,Software Modernization Architect,Use when code quality must improve without destabilizing production behavior.,No,204,271
+16,B,Engineering & Code Leadership,Test Architecture and Coverage Plan,High,Quality Engineering Director,Use to design test coverage around risk rather than raw test count.,No,212,282
+17,B,Engineering & Code Leadership,Performance Diagnosis,Extra High,Performance Engineering Lead,"Use to investigate latency, throughput, memory, CPU, database, or scaling problems.",No,206,274
+18,B,Engineering & Code Leadership,Dependency Upgrade and Compatibility Plan,High,Dependency Governance Lead,"Use to upgrade frameworks, runtimes, libraries, or SDKs safely.",No,207,275
+19,B,Engineering & Code Leadership,Release Readiness Review,High,Release Engineering Director,Use immediately before deploying a material software change.,No,212,282
+20,B,Engineering & Code Leadership,Observability Architecture,High,Observability Engineering Lead,Use to make a system diagnosable and operable before incidents occur.,No,211,281
+21,B,Engineering & Code Leadership,API Implementation Contract,High,API Engineering Director,Use before coding a new endpoint or revising a public or internal contract.,No,210,279
+22,B,Engineering & Code Leadership,Patch Verification and Regression Gate,High,Senior Remediation Engineer,Use after a bug or security fix to determine whether the patch actually resolves the cause without new defects.,No,220,293
+23,C,"Product, UX & Design Leadership",Product Requirements Director,High,Director of Product Management,Use to convert a product concept into an implementable and testable product requirements document.,No,221,294
+24,C,"Product, UX & Design Leadership",Customer Journey and UX Audit,High,UX Strategy Director,Use to diagnose friction across a complete user journey rather than one screen.,No,212,282
+25,C,"Product, UX & Design Leadership",Information Architecture Design,High,Information Architecture Lead,"Use to structure navigation, content, permissions, or complex application areas.",No,214,285
+26,C,"Product, UX & Design Leadership",Design System Foundation,High,Design Systems Director,Use to create or rationalize a reusable visual and interaction system.,No,209,278
+27,C,"Product, UX & Design Leadership",Frontend Visual Direction and Build Brief,High,Creative Technology Director,Use to direct a polished frontend implementation without micromanaging every CSS rule.,No,214,285
+28,C,"Product, UX & Design Leadership",Accessibility Review Director,High,Accessibility Program Lead,"Use to audit a website, application, document, or workflow for barriers and remediation priorities.",No,202,269
+29,C,"Product, UX & Design Leadership",Conversion Experience Review,High,Conversion Design Director,"Use to improve a landing page, signup, lead form, checkout, or appointment flow while preserving trust.",No,201,267
+30,C,"Product, UX & Design Leadership",Design QA and Visual Acceptance Gate,High,Design Quality Director,"Use before releasing a visual artifact, interface, document, or campaign asset.",No,200,266
+31,D,"Data, Automation & Integration",Data Pipeline Architecture,High,Data Platform Architect,"Use to design ingestion, transformation, storage, serving, and governance for a data flow.",No,205,273
+32,D,"Data, Automation & Integration",Schema and Data Contract Design,High,Principal Data Architect,"Use to define durable structures shared across databases, APIs, events, and analytics.",No,196,261
+33,D,"Data, Automation & Integration",Data Quality Control Plan,High,Data Quality Director,"Use when reports, automations, models, or integrations depend on trustworthy data.",No,203,270
+34,D,"Data, Automation & Integration",Workflow Automation Architecture,High,Automation Solutions Director,Use to automate a business process across systems without creating hidden fragility.,No,207,275
+35,D,"Data, Automation & Integration",Tool and Agent Routing Design,Extra High,AI Workflow Architect,"Use to decide when a model should reason, retrieve, call tools, run code, or seek approval.",No,211,281
+36,D,"Data, Automation & Integration","Idempotency, Retry, and Dead-Letter Design",High,Distributed Systems Engineer,Use to make integrations and automations safe under duplicate delivery and partial failure.,No,200,266
+37,D,"Data, Automation & Integration",Cross-System Reconciliation Design,High,Data Operations Architect,"Use when two or more systems may disagree about transactions, projects, customers, or workflow state.",No,199,265
+38,D,"Data, Automation & Integration",Automation Cost and Ownership Review,High,Automation Economics Director,"Use to compare subscription automation, custom integration, managed service, and owned infrastructure.",No,206,274
+39,E,Executive Technology Leadership,CTO Decision Memorandum,Extra High,Chief Technology Officer,Use to present a material technical decision to executives or investors.,No,206,274
+40,E,Executive Technology Leadership,CISO Risk Memorandum,Extra High,Chief Information Security Officer,"Use to communicate a security risk, exception, control gap, or investment decision to leadership.",No,209,278
+41,E,Executive Technology Leadership,Architecture Review Board Package,Extra High,Architecture Governance Chair,Use to prepare a proposal for formal technical governance.,No,210,279
+42,E,Executive Technology Leadership,Technical Vendor Due Diligence,Extra High,Technology Due Diligence Director,"Use before selecting, investing in, or integrating a technology vendor.",No,201,267
+43,E,Executive Technology Leadership,Technical Roadmap and Investment Prioritization,Extra High,Technology Portfolio Director,"Use to sequence platform, product, security, and operational investments.",No,206,274
+44,E,Executive Technology Leadership,Program Recovery Plan,Extra High,Technology Program Recovery Director,"Use when a technical program is late, unstable, over budget, or losing stakeholder confidence.",No,210,279
+45,E,Executive Technology Leadership,Executive Incident Briefing,High,Executive Incident Commander,Use during or after a material outage or security incident to communicate clearly to leadership.,No,206,274
+46,E,Executive Technology Leadership,Technology Operating Review,High,Technology Operations Director,"Use for weekly, monthly, or quarterly leadership review of delivery, reliability, security, cost, and capability.",No,211,281
+47,F,Defensive Cybersecurity,Defensive Authorization and Scope Charter,High,Security Engagement Director,"Use before any advanced security review, test, investigation, or purple-team exercise.",Yes,275,366
+48,F,Defensive Cybersecurity,Enterprise Threat Model,Extra High,Enterprise Security Architect,"Use to model organization-level cyber risk across business services, identities, data, vendors, and operations.",Yes,275,366
+49,F,Defensive Cybersecurity,Application Threat Model,Extra High,Application Security Architect,Use during design or major change to identify application-specific abuse and attack paths.,Yes,279,371
+50,F,Defensive Cybersecurity,Security Architecture Review,Extra High,Principal Security Architect,Use to assess whether a proposed or existing architecture has adequate defense in depth.,Yes,266,354
+51,F,Defensive Cybersecurity,Secure Code Review,Extra High,Application Security Review Lead,Use for authorized review of code for exploitable defects and insecure design.,Yes,278,370
+52,F,Defensive Cybersecurity,Authorization and Access-Control Review,Extra High,Identity Security Architect,"Use to review object, function, field, tenant, and administrative authorization.",Yes,266,354
+53,F,Defensive Cybersecurity,Authentication and Session Security Review,Extra High,Authentication Security Lead,"Use to review login, account recovery, MFA, tokens, sessions, and identity-provider integration.",Yes,266,354
+54,F,Defensive Cybersecurity,Input Validation and Injection Review,High,Secure Coding Specialist,"Use to review how untrusted data reaches interpreters, queries, templates, commands, or downstream services.",Yes,263,350
+55,F,Defensive Cybersecurity,File Upload and Storage Security Review,High,Application Security Engineer,"Use to review user-supplied files, archives, media, documents, and object storage.",Yes,269,358
+56,F,Defensive Cybersecurity,API Security Assessment,Extra High,API Security Architect,Use to assess an API against its actual business flows and the OWASP API risk categories.,Yes,275,366
+57,F,Defensive Cybersecurity,Webhook Security Review,High,Integration Security Architect,Use to secure inbound and outbound webhook integrations.,Yes,263,350
+58,F,Defensive Cybersecurity,Cloud IAM and Privilege Review,Extra High,Cloud Identity Security Architect,"Use to review users, roles, service identities, policies, and privileged paths in a cloud environment.",Yes,264,351
+59,F,Defensive Cybersecurity,Secrets Management Review,High,Secrets Security Lead,"Use to evaluate application, CI/CD, infrastructure, and operator secret handling.",Yes,272,362
+60,F,Defensive Cybersecurity,Tenant Isolation Security Review,Extra High,Multi-Tenant Security Architect,"Use to verify isolation across customers, organizations, workspaces, or projects.",Yes,268,356
+61,F,Defensive Cybersecurity,Software Supply-Chain Review,Extra High,Software Supply-Chain Security Lead,"Use to assess dependencies, provenance, builds, packages, and release artifacts.",Yes,268,356
+62,F,Defensive Cybersecurity,CI/CD Pipeline Security Review,Extra High,DevSecOps Security Architect,"Use to evaluate source-to-production permissions, runners, secrets, approvals, and artifacts.",Yes,269,358
+63,F,Defensive Cybersecurity,Container and Orchestration Security Review,Extra High,Cloud-Native Security Architect,"Use to assess container images, runtime configuration, Kubernetes or equivalent orchestration.",Yes,266,354
+64,F,Defensive Cybersecurity,Security Logging and Detection Coverage Review,High,Detection Architecture Lead,Use to determine whether relevant security events are visible and actionable.,Yes,267,355
+65,F,Defensive Cybersecurity,Vulnerability Triage and Prioritization,High,Vulnerability Management Director,"Use to convert scanner, disclosure, or code-review findings into business-prioritized remediation.",Yes,267,355
+66,F,Defensive Cybersecurity,Security Patch Design,Extra High,Security Remediation Engineer,Use to design a fix for a verified security defect.,Yes,267,355
+67,F,Defensive Cybersecurity,Security Patch Validation,Extra High,Security Verification Lead,Use after remediation to prove that a vulnerability is closed and no regression was introduced.,Yes,268,356
+68,F,Defensive Cybersecurity,Incident Triage and Containment Plan,Extra High,Security Incident Commander,Use at the start of a suspected security incident.,Yes,260,346
+69,F,Defensive Cybersecurity,Incident Timeline and Scope Reconstruction,Extra High,Digital Forensics Analysis Lead,"Use to build a defensible incident timeline from logs, alerts, tickets, and system evidence.",Yes,264,351
+70,F,Defensive Cybersecurity,Detection Engineering Rule Design,High,Detection Engineering Lead,Use to turn a threat hypothesis into a testable detection and response rule.,Yes,273,363
+71,F,Defensive Cybersecurity,Authorized Purple-Team Exercise Plan,Extra High,Purple Team Director,"Use to plan a bounded exercise that validates preventive, detective, and response controls.",Yes,265,352
+72,F,Defensive Cybersecurity,Cybersecurity Tabletop Exercise,High,Incident Preparedness Director,"Use to rehearse decision-making, communications, and recovery without technical execution.",Yes,261,347
+73,F,Defensive Cybersecurity,Security Control Mapping and Evidence Plan,High,Security Compliance Architect,"Use to map system evidence to NIST, contractual, or internal control outcomes.",Yes,265,352
+74,F,Defensive Cybersecurity,Privacy and Data Security Review,Extra High,Data Protection Security Architect,"Use to assess personal, confidential, regulated, or sensitive data across collection, processing, sharing, retention, and deletion.",Yes,269,358
+75,F,Defensive Cybersecurity,AI and LLM Application Security Review,Extra High,AI Security Architect,"Use to assess an application that uses models, agents, tools, retrieval, memory, or connected data.",Yes,284,378
+76,F,Defensive Cybersecurity,Security Release Gate,Extra High,Security Assurance Director,"Use before releasing a high-impact application, integration, model workflow, or infrastructure change.",Yes,267,355
+77,G,Research & Artifact Production,Evidence-Based Research Synthesis,High,Research Director,"Use to answer a complex question from web, files, connected data, and primary sources.",No,196,261
+78,G,Research & Artifact Production,Professional Document Production Director,High,Director of Document Architecture,"Use to turn content and evidence into a polished report, handbook, SOP, proposal, or PDF.",No,218,290
+79,G,Research & Artifact Production,Executive Presentation Production Director,High,Director of Presentation Strategy,Use to create a decision-oriented presentation rather than a text-heavy document placed on slides.,No,211,281
+80,G,Research & Artifact Production,Spreadsheet Model and Analysis Director,High,Director of Analytical Modeling,"Use to create a financial, operational, planning, tracking, or analytical workbook.",No,214,285
+PT-01,PT,Purple Team Architecture,Purple Team Program Charter,Extra High,Purple Team Executive Sponsor,"Establish the mandate, outcomes, authority, funding, independence, and review cadence.",Yes,379,505
+PT-02,PT,Purple Team Architecture,Authorization and Rules of Engagement,Extra High,Security Engagement Director,Create the controlling authorization record before any active security validation.,Yes,377,503
+PT-03,PT,Purple Team Architecture,Target Manifest and Data Handling Plan,High,Purple Team Operations Lead,Bind an exercise to exact assets and protect sensitive evidence.,Yes,370,493
+PT-04,PT,Purple Team Architecture,Safety Risk and Deconfliction Plan,Extra High,Exercise Safety Officer,Prevent operational harm and collisions with real incidents or maintenance.,Yes,371,495
+PT-05,PT,Purple Team Architecture,Threat-Informed Objective Selection,High,Threat-Informed Defense Lead,Convert enterprise risk and threat evidence into bounded test objectives.,Yes,366,488
+PT-06,PT,Purple Team Architecture,ATT&CK Coverage Hypothesis,High,Threat Detection Architect,Map behaviors to current ATT&CK objects without claiming coverage from labels alone.,Yes,372,496
+PT-07,PT,Purple Team Architecture,Scenario and Control Objective Design,Extra High,Purple Team Scenario Architect,"Build a realistic scenario as a sequence of defensive questions, not an unrestricted attack chain.",Yes,376,501
+PT-08,PT,Purple Team Architecture,Technique-to-Telemetry Mapping,High,Detection Architecture Lead,Prove that each planned test has observable evidence before execution.,Yes,364,485
+PT-09,PT,Purple Team Architecture,Lab and Range Readiness,High,Cyber Range Director,Confirm an isolated environment can safely support the planned validation.,Yes,368,491
+PT-10,PT,Purple Team Architecture,Atomic Test Run Card,Extra High,Red Team Test Lead,"Convert one approved behavior into a controlled, observable, reversible run card.",Yes,375,500
+PT-11,PT,Purple Team Architecture,Tooling and Operator Approval Gate,Extra High,Security Tool Governance Lead,Approve a tool and operator combination for one bounded exercise.,Yes,370,493
+PT-12,PT,Purple Team Architecture,"Stop, Abort, and Rollback Control",Extra High,Exercise Safety Officer,Make safety controls executable before the first active test.,Yes,366,488
+PT-13,PT,Purple Team Architecture,Telemetry Readiness Review,High,Blue Team Telemetry Lead,Validate that sensors and data pipelines can support the exercise.,Yes,366,488
+PT-14,PT,Purple Team Architecture,Detection Engineering Validation,Extra High,Detection Engineering Lead,Evaluate whether an analytic detects the intended behavior with acceptable noise.,Yes,365,487
+PT-15,PT,Purple Team Architecture,Alert Triage and Response Observation,High,SOC Validation Lead,Measure the human and automated response path after a controlled signal.,Yes,370,493
+PT-16,PT,Purple Team Architecture,Prevention and Resilience Validation,Extra High,Security Control Validation Lead,Determine whether preventive controls block safely and services remain resilient.,Yes,370,493
+PT-17,PT,Purple Team Architecture,Purple Test Orchestration Plan,Extra High,Purple Team Director,"Coordinate approved red action, blue observation, safety, evidence, and decisions.",Yes,367,489
+PT-18,PT,Purple Team Architecture,Evidence Ledger and Finding Normalization,High,Security Assurance Lead,Create traceable evidence without overstating results.,Yes,360,480
+PT-19,PT,Purple Team Architecture,Remediation and Retest Plan,Extra High,Security Remediation Director,Turn validated gaps into owned corrective action and proof of closure.,Yes,368,491
+PT-20,PT,Purple Team Architecture,After-Action Review and CAPA,High,Purple Team Improvement Lead,"Capture learning, corrective action, and accountable follow-through.",Yes,354,472
+PT-21,PT,Purple Team Architecture,Coverage and Confidence Scorecard,Extra High,Threat-Informed Defense Architect,Measure defensive confidence without reducing it to ATT&CK color coverage.,Yes,362,483
+PT-22,PT,Purple Team Architecture,Program Metrics and Executive Brief,High,Purple Team Program Director,"Report program value, risk reduction, and constraints to accountable leaders.",Yes,376,501
+PT-23,PT,Purple Team Architecture,Independent Assurance and Release Gate,Extra High,Security Assurance Director,"Decide whether the exercise record supports release, closure, or further work.",Yes,374,499
+PT-24,PT,Purple Team Architecture,Curriculum and Competency Assessment,High,Cybersecurity Education Director,Build role-based purple-team education with safe practical assessment.,Yes,366,488
