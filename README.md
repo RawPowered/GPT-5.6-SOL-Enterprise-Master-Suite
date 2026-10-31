@@ -64,13 +64,13 @@ This gives the reviewer a defined decision, evidence trail, action boundary, and
 
 ### Frame the work
 
-- [Quick start](docs/quick-start.md) — a short path from request to verifiable result.
-- [Prompt templates](docs/prompt-templates.md) — copy-ready compact and higher-assurance formats.
+- [Quick start](docs/quick-start.md); a short path from request to verifiable result.
+- [Prompt templates](docs/prompt-templates.md); copy-ready compact and higher-assurance formats.
 
 ### Check the work
 
-- [Evaluation playbook](docs/evaluation-playbook.md) — representative cases, criteria, repeated trials, failure review, and release decisions.
-- [Official references](docs/official-resources.md) — primary links for changing product details and current evaluation guidance.
+- [Evaluation playbook](docs/evaluation-playbook.md); representative cases, criteria, repeated trials, failure review, and release decisions.
+- [Official references](docs/official-resources.md); primary links for changing product details and current evaluation guidance.
 
 ### Download the complete publication
 
@@ -81,7 +81,7 @@ The latest Cybersecurity Revision 2 source package is available as a [complete Z
 - [Purple-team prompt pack](resources/gpt-5.6-sol-cybersecurity-revision-2/GPT-5.6_Sol_High_Purple_Team_Copy_Ready_Prompt_Pack.md) · [operational templates](resources/gpt-5.6-sol-cybersecurity-revision-2/GPT-5.6_Sol_High_Purple_Team_Operational_Templates.md)
 - [Package index and revision notes](resources/README.md)
 
-## What this is—and what it isn’t
+## What this is, and what it isn’t
 
 This repository publishes independent workflow guidance and examples. It is not an OpenAI publication, certification, warranty, or endorsement. “GPT-5.6 Sol” is the name of this project and its source materials; it does not assert that every named model, setting, or capability is an official or currently available product. Verify live details on the relevant official product page.
 
